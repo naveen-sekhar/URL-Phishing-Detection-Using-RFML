@@ -5,7 +5,7 @@ import joblib
 app = Flask(__name__)
 
 # Load trained model
-model = joblib.load("phishing_model.pkl")
+model = joblib.load("model/phishing_model.pkl")
 
 # Function to extract features from URL
 def extract_features(url):
