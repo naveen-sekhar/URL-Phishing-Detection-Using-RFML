@@ -69,7 +69,6 @@ def predict():
     prediction = model.predict(features_df)[0]
     result = "Phishing" if prediction == 1 else "Safe"
 
-    # ✅ Fix: Pass `prediction` to `get_explanation()`
     explanation = get_explanation(features, prediction)
 
     return jsonify({"url": url, "prediction": result, "reasons": explanation})
