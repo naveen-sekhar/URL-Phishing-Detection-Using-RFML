@@ -1,0 +1,155 @@
+/* Colorful Background */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+}
+
+/* Container Styling */
+.container {
+    width: 450px; /* Increased width */
+    margin: auto;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.03);
+}
+
+/* Heading */
+h1 {
+    font-size: 24px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Input Field */
+input {
+    width: 95%; /* Slightly bigger input field */
+    max-width: 400px;
+    padding: 14px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Glow effect when typing */
+input:focus {
+    box-shadow: 0px 0px 8px #ffcc00;
+    background: white; /* Fully visible while typing */
+}
+
+/* Button Styling */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(255, 0, 150, 0.5);
+}
+
+/* Cool Hover Effect */
+button:hover {
+    background: linear-gradient(90deg, #ee0979, #ff6a00);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 12px #ff0099;
+}
+
+/* Click Effect */
+button:active {
+    transform: scale(0.95);
+}
+
+/* Result Box */
+#result {
+    font-size: 22px; /* Bigger font */
+    margin-top: 20px;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 0.5s forwards;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 15px; /* Added padding */
+    border-radius: 8px;
+}
+
+/* Phishing and Safe Colors */
+.safe {
+    color: #00ff00;
+    background: rgba(0, 255, 0, 0.2);
+    border: 2px solid #00ff00;
+}
+
+.phishing {
+    color: #ff3333;
+    background: rgba(255, 51, 51, 0.2);
+    border: 2px solid #ff3333;
+}
+
+/* Explanation Text */
+#explanation {
+    font-size: 18px; /* Bigger font */
+    margin-top: 15px;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 0.5s 0.3s forwards;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+}
+#description {
+    font-size: 14px;
+    color: #f0f0f0;
+    margin-top: 10px;
+    font-style: italic;
+    opacity: 0.9;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Loading Animation */
+.loading {
+    display: inline-block;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #ffcc00;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    margin-left: 10px;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Spinning Animation */
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
