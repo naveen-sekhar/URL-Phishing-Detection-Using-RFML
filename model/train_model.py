@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 # Load dataset
 def train_model():
-    df = pd.read_csv("phishing_dataset.csv")
+    df = pd.read_csv("Synthetic_Dataset/phishing_dataset.csv")
     
     # Define features and target
     X = df.drop(columns=["url", "label"])
