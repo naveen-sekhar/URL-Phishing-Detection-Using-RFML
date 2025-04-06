@@ -1,4 +1,4 @@
-├── URL-Phishing-Detection-Using-RainForest-Machine-Learning-Model
+├── URL-Phishing-Detection-Using-RandomForest-Machine-Learning-Model
 │   ├── app.py
 │   ├── model/
 │   │   ├── Synthetic_Dataset/
