@@ -6,9 +6,11 @@
 │   │   ├── phishing_model.pkl
 │   │   ├── predict_model.py
 │   │   └── train_model.py
-│   ├── requirements.txt
 │   ├── static/
 │   │   ├── script.js
 │   │   └── style.css
 │   ├── templates/
 │   │   └── index.html
+│   ├── README.md
+│   ├── Projectstructure.txt
+│   ├── requirements.txt
