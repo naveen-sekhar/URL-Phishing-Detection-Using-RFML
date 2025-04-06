@@ -33,8 +33,8 @@ Refer Projectstructure.txt for Reference
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/naveen-sekhar/URL-Phishing-Detection-Using-RainForest-Machine-Learning-Model.git
-   cd URL-Phishing-Detection-Using-RainForest-Machine-Learning-Model
+   git clone https://github.com/naveen-sekhar/URL-Phishing-Detection-Using-RandomForest-Machine-Learning-Model.git
+   cd URL-Phishing-Detection-Using-RandomForest-Machine-Learning-Model
 2. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
