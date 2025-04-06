@@ -25,20 +25,7 @@ A Machine Learning-based web application that detects whether a given URL is **l
 ---
 
 ## 🗂️ Project Structure 
-├── URL-Phishing-Detection-Using-RFML-main/
-│   ├── app.py
-│   ├── model/
-│   │   ├── Synthetic_Dataset/
-│   │   │   └── phishing_dataset.csv
-│   │   ├── phishing_model.pkl
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   ├── requirements.txt
-│   ├── static/
-│   │   ├── script.js
-│   │   └── style.css
-│   ├── templates/
-│   │   └── index.html
+phishing-url-detector/ │ ├── app.py # Flask backend for serving predictions ├── train_model.py # Trains ML model and saves it to .pkl ├── predict_model.py # Extracts features and predicts ├── phishing_model.pkl # Pre-trained Random Forest model ├── phishing_dataset.csv # Dataset with labeled URLs │ ├── templates/ │ └── index.html # Frontend HTML form │ ├── static/ │ ├── style.css # Stylish UI with modern design │ └── script.js # Sends request & displays result
 
 ---
 
