@@ -1,0 +1,14 @@
+├── URL-Phishing-Detection-Using-RainForest-Machine-Learning-Model
+│   ├── app.py
+│   ├── model/
+│   │   ├── Synthetic_Dataset/
+│   │   │   └── phishing_dataset.csv
+│   │   ├── phishing_model.pkl
+│   │   ├── predict_model.py
+│   │   └── train_model.py
+│   ├── requirements.txt
+│   ├── static/
+│   │   ├── script.js
+│   │   └── style.css
+│   ├── templates/
+│   │   └── index.html
